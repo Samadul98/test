@@ -1,0 +1,51 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+<main>
+    <h1>One Piece</h1>
+    <p>This Page is all about Why One Piece is the Greatest story ever written by man.</p>
+<Section>
+  <h2>One Piece Royalty AMV</h2>
+    <p>This is an animated music video (AMV) by Asta AMVs.</p>
+  <iframe
+    title="One Piece Royalty AMV"
+    src="https://youtube.com/embed/xmbxe0Jtxmc?si=g7mgDcrrVbt2Ef5S"
+    height="480" width="640"
+    allowfullscreen
+  ></iframe>
+</section>
+<section>
+  <h2>One Piece Can't Hold Us AMV</h2>
+    <p>A Popular AMV about the WANO Arc.</p>
+  <iframe
+    title="One Piece Can't Hold Us"
+    src="https://www.youtube.com/embed/watch?v=SyOfGdyPdzM"
+    height="480" width="640"
+    allowfullscreen
+  ></iframe>
+</section>
+<section> 
+  <h2>One Piece Centuries AMV</h2>
+    <p>One of the Most Viewed One Piece AMV's.</p>
+  <iframe
+    title="One Piece Centuries AMV"
+    src="https://www.youtube.com/embed/watch?v=oxhY8kbd3Yk"
+    height="480" width="640"
+    allowfullscreen
+  ></iframe>
+</section>
+</main>
+</body>
+
+</html>
+
+** end of index.html **
+

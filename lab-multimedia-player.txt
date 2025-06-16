@@ -1,0 +1,75 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+
+  <main>
+
+  <h1>Islamic Nasheeds</h1>
+
+  <section>
+
+    <h2>Muad - Trees of Freedom</h2>
+
+      <audio 
+      controls 
+      aria-label="Trees of freedom by Muad">
+      
+      <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mpeg">
+
+      </audio>
+
+  </section>
+
+  <section>
+
+    <h2>Music Video</h2>
+    
+       <video 
+       captions 
+       controls 
+       width="600" 
+       aria-label="Music Video of Muad singing Trees of Freedom">
+
+      <source 
+      frameborder="0"
+      allowfullscreen
+      width="600"
+      height="400"
+      title="youtube video player"
+      src="https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.mp4" 
+      type="video/mp4">
+
+      <track 
+      src="https://www.youtube.com/watch?v=dMeGcSQoAdg" 
+      kind="captions" 
+      srclang="en" 
+      label="english">
+      
+      </video>
+
+  </section>
+
+  <section>
+
+    <h2>Description of the Song</h2>
+
+      <p>This song is about Palestine, It talks about the past and present. Palestine will be free one day!</p>
+
+  </section>
+
+  </main>
+  
+</body>
+
+</html>
+
+** end of index.html **
+

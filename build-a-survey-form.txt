@@ -1,0 +1,231 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+   <header>
+
+    <h1 id="title">Marriage Proposal Form</h1>
+
+    <p id="description">In this form you will be providing me with essential information to see if you are the ideal candidate for me to marry.</p>
+
+   </header>
+
+  <main>
+
+    <form id="survey-form">
+
+    
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label id="name-label">Name (Required)</label>
+      <input 
+      required 
+      type="text" 
+      id="name"
+      name="name"
+      placeholder="Samadul Rashid"
+      size="20"
+      />
+
+      <label id="email-label">Email (Required)</label>
+      <input 
+      required 
+      type="email" 
+      id="email"
+      name="email"
+      placeholder="samadul0809@gmail.com"
+      size="20"
+      />
+      
+      <label id="number-label">Age (Required) Between 22-28</label>
+      <input 
+      required
+      type="number" 
+      id="number"
+      name="number"
+      placeholder="26"
+      size="20"
+      min="22"
+      max="28"
+      />
+
+    </fieldset>
+
+    <fieldset>
+
+      <legend>Modesty</legend>
+
+      <Label for="dropdown">Head Covering (Required)</label>
+
+      <select required id="dropdown">
+
+        <option value="None">None</option>
+        <option value="hijabi-some-hair">Hijabi (some hair)</option>
+
+        <option selected value="hijabi-full-hair">Hijabi (full hair)</option>
+        <option value="niqabi">Niqabi</option>
+
+      </select>
+
+      <Label for="dropdown">Body Covering (Required)</label>
+
+      <select required id="dropdown">
+
+        <option value="modest">Modest</option>
+        <option value="burka">Burka</option>
+        <option selected value="abaya">Abaya</option>
+      </select>
+
+    </fieldset>
+
+    <fieldset>
+
+    <legend>Are you willing to stay in my family home for up to 1 year? (Required)</legend>
+
+    <label  for="yes-option">Yes</label>
+    <input checked required name="family-home" value="yes" id="yes-option" type="radio">
+
+    <label for="no-option">No</label>
+    <input 
+    required 
+    name="family-home" 
+    value="no" 
+    id="no-option" 
+    type="radio">
+
+    <label for="maybe-option">Maybe</label>
+    <input 
+    required 
+    name="family-home" 
+    value="maybe" 
+    id="maybe-option" 
+    type="radio">
+
+    <label for="half-a-year-option">Half a Year</label>
+    <input 
+    required 
+    name="family-home" 
+    value="half-a-year-option" 
+    id="few-months-option" 
+    type="radio">
+
+    <label for="few-months-option">Few Months</label>
+    <input 
+    required 
+    name="family-home" 
+    value="few-months" 
+    id="few-months-option" 
+    type="radio">
+
+    </fieldset>
+
+    <fieldset>
+
+    <legend>Please tick any of the folowing that apply to you</legend>
+
+    <label for="reads-quran-daily">Reads Qur'an Dialy</label>
+    <input 
+    type="checkbox" 
+    name="reads-quran-daily" 
+    value="read-quran-daily" 
+    id="reads-quran-daily">
+
+    <label for="prays-5-times-a-day">Prays 5 Times a Day</label>
+    <input 
+    type="checkbox" 
+    name="prays-5-times-a-day" 
+    value="prays-5-times-a-day" 
+    id="prays-5-times-a-day">
+
+    <label for="gives-charity">Gives Charity</label>
+    <input 
+    type="checkbox" 
+    name="gives-charity" 
+    value="gives-charity" 
+    id="gives-charity">
+
+    <label for="no-male-friends">No Male Friends</label>
+    <input 
+    type="checkbox" 
+    name="no-male-friends" 
+    value="no-male-friends" 
+    id="no-male-friends">
+
+    <label for="doesnt-freemix">Doesn't Freemix</label>
+    <input 
+    type="checkbox" 
+    name="doesnt-freemix" 
+    value="doesnt-freemix" 
+    id="doesnt-freemix">
+
+    <label for="doesnt-use-mixed-gyms">Doesn't Use Mixed Gyms</label>
+    <input 
+    type="checkbox" 
+    name="doesnt-use-mixed-gyms" 
+    value="doesnt-use-mixed-gyms" 
+    id="doesnt-use-mixed-gyms">
+
+    <label for="deen-over-dunya">Deen over Dunya</label>
+    <input 
+    type="checkbox" 
+    name="deen-over-dunya" 
+    value="deen-over-dunya" 
+    id="deen-over-dunya">
+
+    <label for="honest">Honest</label>
+    <input 
+    type="checkbox" 
+    name="honest" 
+    value="honest" 
+    id="honest">
+
+    <label for="patient">Patient</label>
+    <input 
+    type="checkbox" 
+    name="patient" 
+    value="patient" 
+    id="patient">
+
+    <label for="funny">Funny</label>
+    <input 
+    type="checkbox" 
+    name="funny" 
+    value="funny" 
+    id="funny">
+
+    </fieldset>
+
+    <legend>Any additional information?</legend>
+    
+    <label for="comments"></label>
+
+    <textarea 
+    id="comments" 
+    col="20" 
+    rows="15" 
+    placeholder="enter here">
+    </textarea>
+
+    <input 
+    id="submit" 
+    type="submit" 
+    submit="surveryform"
+    >
+
+    </form>
+
+  </main>
+
+  </body>
+
+</html>
+
+** end of index.html **
+

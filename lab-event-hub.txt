@@ -1,0 +1,57 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+ <header>
+  <h1>Event Hub</h1>
+  <nav>
+      <ul>
+         <li><a href="#upcoming-events">Upcoming Events</a></li> 
+         <li><a href="#past-events">Past Events</a></li>
+      </ul>
+  </nav>
+ </header>
+
+ <main>
+    <section id="upcoming-events">
+     <h2>Upcoming Events</h2>
+
+      <article>
+       <h3>Laugh Tale</h3>
+       <p>The Location of the One Piece, The Final Destination.</p>
+      </article>
+
+      <article>
+       <h3>Lode Star</h3>
+       <p>The Final Stop, Before Laugh Tale</p>
+      </article>
+    </section>
+
+    <section id="past-events">
+     <h2>Past Events</h2>
+       <article>
+        <h3>Elbaf</h3>
+        <p>The Island of Giants, The Mighty Giants are Warriors.</p>
+        <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/06/one-piece-anime-episode-1109-elbaf-giants-brogy-dory-shanks-crew.jpg" alt="Egghead" width="640" height="480">
+       </article>
+
+       <article>
+        <h3>Egghead</h3>
+        <p>The Location of Vegapunk, the Mother Flame and the place where he died</p>
+        <img src="https://th.bing.com/th/id/OIP.SrZp9SB-z3p_7AwKMBe9XQHaIH?rs=1&pid=ImgDetMain" alt="Egghead" width="640" height="480">
+       </article>
+    </section>
+ </main>
+</body>
+
+</html>
+
+** end of index.html **
+

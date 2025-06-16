@@ -1,0 +1,86 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+
+  <h1>Manga</h1>
+
+  <table>
+
+    <thead>
+      
+      </tr>
+      
+      <th colspan="2">Title</th>
+      <th colspan="2">Author</th>
+      <th colspan="2">Genre</th>
+      <th colspan="2">Publication Year</th>
+
+      </tr>
+
+
+    </thead>
+    
+    <tbody>
+
+      <tr>
+        <td colspan="2">One Piece</td>
+        <td colspan="2">Eiichiro Oda</td>
+        <td colspan="2">Battle Shonen/Adventure Series</td>
+        <td colspan="2">1997</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">Dragon Ball</td>
+        <td colspan="2">Akira Toriyama</td>
+        <td colspan="2">Battle Shonen</td>
+        <td colspan="2">1984</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">Shingeki No Kyojin</td>
+        <td colspan="2">Hajime Isayama</td>
+        <td colspan="2">Battle Shonen</td>
+        <td colspan="2">2009</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">Berserk</td>
+        <td colspan="2">Kentaro Miura</td>
+        <td colspan="2">Seinen</td>
+        <td colspan="2">1989</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">Tokyo Ghoul</td>
+        <td colspan="2">Sui Ishida</td>
+        <td colspan="2">Seinen</td>
+        <td colspan="2">2011</td>
+      </tr>
+
+    </tbody>
+
+    <tfoot>
+
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+
+    </tfoot>
+
+  </table>
+
+</body>
+
+</html>
+
+** end of index.html **
+

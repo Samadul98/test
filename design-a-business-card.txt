@@ -1,0 +1,67 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="business-card">
+        <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="a beautiful rose flower">
+        <p class="full-name">Mohammed Samadul Rashid</p>
+        <p class="designation">Customer Assistant</p>
+        <p class="company">Tesco</p>
+        <hr>
+        <p>samadul0809@gmail.com</p>
+        <p>+44 7967591931</p>
+        <a href="https://www.youtube.com/@Samadul98">Portfolio</a>
+        <hr>
+    <div class="social-media">
+        <h2>Connect with me</h2>
+        <a href="https://x.com/Samadul98">Twitter</a>
+        <a href="https://www.linkedin.com/in/mohammed-samadul-rashid-0ba10535a/">LinkedIn</a>
+        <a href="https://github.com/Samadul98">GitHub</a>
+    </div>
+    </div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.business-card {
+  width: 300px;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: pink;
+}
+.profile-image {
+  max-width: 100%;
+}
+
+** end of styles.css **
+

@@ -1,0 +1,66 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+
+    <h1>Checkout</h1>
+
+    <section>
+        
+        <h2>Your Cart</h2>
+            <img src="https://assets.goal.com/images/v3/blt4c9a1ca377b58952/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202024-09-16T162258.546.jpg?auto=webp&format=pjpg&width=1920&quality=60" alt="A Playstation Five Professional" width="600" height="400">
+
+    </section>
+
+    <section>
+
+    <h2>Payment Information</h2>
+
+        <form action="submit-payment" method="post">
+
+            <div>
+                <label for="card-name">Full Name</label>
+                <input required type="text" id="card-name" name="card-name" aria-required="true" placeholder="Sam Porter">
+
+            </div>
+
+            <div>
+
+                <label for="card-number">Card Number</label>
+                <input required type="number" id="card-number" name="card-number" aria-required="true" placeholder="1234 5678 9012 3456">
+
+            </div>
+
+            <div>
+
+                <label for="expiry-date">Expiry Date</label>
+                <input required type="number" id="expiry-date" name="expiry-date" aria-required="true" placeholder="mm/yy">
+
+            </div>
+
+            <div>
+
+                <label for="cvv">CVV</label>
+                <input required type="number" id="cvv" name="cvv" aria-required="true" aria-label="Card Verification Value" placeholder="123">
+
+            </div>
+
+            <button type="submit" aria-label="submit order" value="Placeholder">Submit Order</button>
+
+        </form>
+    
+    </section>
+
+</body>
+
+</html>
+
+** end of index.html **
+

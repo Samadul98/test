@@ -1,0 +1,40 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+
+<body>
+
+    <main>
+        <h1>The Dark Knight</h1>
+        <img src="https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/5151N2hUPiL._AC_.jpg" alt="The dark knight movie poster" width="400" length="600">
+        <p>"The Dark Knight" is the second movie in the Batman trilogy of films made by Christopher Nolan. The Director is known for other films such as "Inception" and "Intersteller". In the second film of the trilogy, Batman faces his toughest and trickiest oppenent yet, The Joker. This film is filled with action, set-pieces and great cinematography. If you are a fan of Christopher Nolan movies, this is a <strong>Must Watch</strong>.</p>
+        <p><strong>Movie Rating:</strong>
+        <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</span>(10/10)
+
+        <h2>Cast Members</h2>
+
+        <ul>
+
+        <li><strong>Christian Bale</strong> as Bruce Wayne/The Batman</li>
+        <li><strong>Heath Ledger</strong> as The Joker</li>
+        <li><strong>Cillian Murphy</strong> as Scarecrow</li>
+        <li><strong>Gary Oldman</strong> as James Gordon</li>
+        <li><strong>Aaron Eckhart</strong> as Harvey Dent/Twoface</li>
+        <li><strong>Morgan Freeman</strong> as Lucius Fox</li>
+        <li><strong>Michael Caine</strong> as Alfred</li>
+       
+        </ul>   
+
+        </main>
+</body>
+
+</html>
+
+** end of index.html **
+

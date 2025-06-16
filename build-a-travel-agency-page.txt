@@ -1,0 +1,36 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Travel Agency Page</title>
+  <meta charset="utf-8">
+  <meta name="description" content="This is the cheapest place to visit in Bangladesh">
+ </head>
+ <body>
+  <h1>Bang4urBuck</h1>
+  <p>This Website has the cheapest prices for flights and hotels to Bangladesh</p>
+  <h2>Packages</h2>
+  <p>We have two packages currently available:</p>
+  <ul>
+    <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+    <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+  </ul>
+  <h2>Top Itineraries</h2>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://mediaim.expedia.com/destination/9/4b9a48becb4533bce02903a7bf567a05.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh" alt="City"></a>
+      <figcaption>The Beautiful City in all its glory</figcaption>
+    </figure>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" alt="The Suburbs" target="_blank"><img src="https://cdn.britannica.com/49/129549-050-FB082C69/view-neighbourhood-suburbs-city.jpg" alt="Suburbs"></a>
+      <figcaption>The Quite Suburbs</figcaption>
+    </figure>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" alt="The Country" target="_blank"><img src="https://img.freepik.com/premium-photo/peaceful-landscapes-spring-morningmeghalaya-countryside-bangladesh_1073075-149.jpg" alt="Countryside"></a>
+      <figcaption>The Peaceful Countryside</figcaption>
+    </figure>
+ </body>
+</html>
+
+** end of index.html **
+
